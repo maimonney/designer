@@ -401,10 +401,10 @@ h3 {
 }
 
 /*--contacto--*/
-.contacto h1 {
+.contacto h2 {
     text-align: center;
     margin: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
     font-size: 50px;
     color: #561d5c;
 }
@@ -519,6 +519,7 @@ h3 {
 
 /*--redes de contactos--*/
 .selection {
+    position: relative;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -598,7 +599,6 @@ h3 {
 
 .pie_img {
     height: 200px;
-    width: 220px;
     grid-area: img;
 }
 
@@ -621,7 +621,7 @@ h3 {
 
 .pie_li_red {
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     padding: 10px;
     grid-area: icono;
@@ -851,10 +851,7 @@ h3 {
     }
 }
 @media only screen and (min-width: 750px) {
-    .nav_responsive_btn,.nav_responsive, .responsive_nav h1, .responsive_nav {
-        display: none;
-    }
-    .boton_1{
+    .responsive_nav, .nav_responsive_btn,.nav_responsive, .responsive_nav h1, .boton_1 {
         display: none;
     }
 }
@@ -864,6 +861,8 @@ h3 {
     display: none;
 }
 .responsive_nav {
+    display: flex;
+    justify-content: space-between;
    background: #860F8A;
     display: flex;
     width: 100%;
@@ -876,7 +875,7 @@ h3 {
     color: white;
     font-size: 15px;
     font-weight: lighter;
-    margin: 5px;
+    margin: 8px;
 }
 .btn {
     display: flex;
@@ -903,6 +902,7 @@ h3 {
 .nav_responsive {
     background: #860F8A;
     opacity: 0;
+    position: absolute;
     transition: all 0.5s ease-in-out;
     width: 200px;
     border-radius: 3px;
