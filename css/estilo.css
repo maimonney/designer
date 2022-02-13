@@ -921,9 +921,14 @@ h3 {
 }
 
 .nav_responsive_li a {
-    color: #BF99CF;
+    color: #a877bc;
     text-decoration: none;
     list-style:none;
+}
+.text a{
+    color: #BF99CF;
+    font-weight: bolder;
+    font-size: 17px;
 }
 .nav_responsive_ul{
     display: flex;
